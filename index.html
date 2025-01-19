@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquerries.css">
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div id="logo">Mehdi Hassan</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div id="logo">Mehdi Hassan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="" onclick="toggleMenu()">About</a></li>
+            <li><a href="" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Images/profile-pic.jpg" alt="Mehdi Hassan profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mehdi Hassan</h1>
+            <p class="section__text__p2">FRONT-END DEVELOPER</p>
+            <div class="btn-container">
+                <button class="btn-color-2" onclick="window.open('')">Download CV</button>
+                <button class="btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="Images/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.haref='https://www.linkedin.com/'">
+                <img src="Images/github.png" alt="My GitHub profile" class="icon" onclick="location.haref='https://www.github.com/'">
+                <img src="Images/fiverr.png" alt="My fiverr profile" class="icon" onclick="location.haref='https://www.fiverr.com/'">
+            </div>
+        </div>
+        <img src="Images/arrow.png" alt="arrow icon" class="arrow" style="height: 100px;" onclick="location.href='#about'">
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Read More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="Images/about-pic.png" alt="Profile-Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="Images/experience.png" alt="Experiene icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>6 Month <br> FRONT-END DEVELOPER</p>
+                    </div>
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="Images/education.png" alt="Education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>Intermediate<br>Pre-Medical</p><br>
+                            <p>Government Boys Higher Secondary School Kumb</p>
+                        </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis sapiente accusantium
+                         quasi corporis amet saepe maxime. Doloribus animi saepe error distinctio cumque. Cumque excepturi
+                          qui repellendus voluptate itaque. Adipisci praesentium nam odio corrupti numquam repudiandae
+                           architecto rem debitis accusamus aut ex aspernatur, quas voluptatem ullam dolorum ut quo nemo</p>
+                </div>
+            </div>
+        </div>
+        <img src="Images/arrow.png" alt="arrow icon" class="arrow" style="height: 100px;" onclick="location.href='#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Review My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">FRONT-END DEVELOPER</h2>
+                    <p>6 month Sukkur IBA University</p>
+                    <div class="article-container">
+                        <article>
+                            <img src="Images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <div class="details-containers">
+                            <h2 class="experience-sub-title">GRAPHIC DESIGNER </h2>
+                            <p>6 month Sukkur IBA University</p>
+                            <div class="article-container">
+                                <article>
+                                    <img src="Images/checkmark.png" alt="Experience icon" class="icon">
+                                    <div>
+                                        <h3>CANVA</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="Images/checkmark.png" alt="Experience icon" class="icon">
+                                    <div>
+                                        <h3>PHOTOSHOP</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="Images/checkmark.png" alt="Experience icon" class="icon">
+                                    <div>
+                                        <h3>ALLUSTRATOR</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="Images/arrow.png" alt="arrow icon" class="arrow" style="height: 100px;" onclick="location.href='#Projects'">
+    </section>
+
+    <section id="Projects">
+        <p class="section__text__p1"> Checkout My</p>
+        <h1 class="title">PROJECTS</h1>
+        <div class="experiene-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="Images/project-2.png" alt="project-2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        <div class="experiene-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="Images/projest-1.jpg" alt="project-1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="Images/arrow.png" alt="arrow icon" class="arrow" style="height: 100px;" onclick="location.href='#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-uper-container">
+            <div class="contact-info-container">
+                <img src="Images/email.png" alt="Email icon" class="contact-icon">
+                <p><a href="hamzaahmedmehrani110@gmail.com">Gmail Me</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="Images/linkedin.png" alt="LinkedIn icon" class="contact-icon">
+                <p><a href="www.linkedin.com">My LinkedIn Account</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav id="dekstop-nav">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>copyright &#169; 2025 Mehdi Hassan </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
